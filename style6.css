@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFF0;
+}
+
+/* This is Navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #A1C2F1;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align:center;
+  padding:0.5%;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.navbar a:hover {
+  color: #4F709C;
+}
+
+#logo {
+  float: left;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* This is Main Image */
+.overlay {
+	position: relative;
+	padding: 150px;
+	min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url("image/ET.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-size: cover;
+	opacity: .75;
+}
+
+.text {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #FFD966;
+}
+
+/*This is  main*/
+#main, #main1 {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+.maintext {
+  margin-top: 2px;
+}
+
+.maintext h2 {
+  font-size: 50px;
+  margin-bottom: -5px;
+}
+
+.maintext p {
+  font-size: 25px;
+}
+
+.maintext1 {
+  margin-top: -20px; 
+}
+
+.effect-container {
+  display: flex; 
+}
+
+.a1,
+.a2 {
+  flex: 1; 
+}
+
+.a2{
+	margin-left: 100px;
+}
+
+.maintext1 h4 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.maintext1 ul {
+  font-size: 20px;
+  margin-top: 10Px;
+}
+
+.maintext h3 {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#main2 {
+	max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;	
+  justify-content: center;
+}
+
+.maintext2 {
+  margin-top: -60px;
+}
+
+.maintext2 h2 {
+  font-size: 50px;
+	margin-bottom: -1px;
+}
+
+.maintext2 p {
+  font-size: 23px;
+}
+
+#main3 {
+	max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;	
+  justify-content: center;
+}
+
+.maintext3 {
+  margin-top: -60px;
+}
+
+.maintext3 h2 {
+  font-size: 50px;
+	margin-bottom: -1px;
+}
+
+.maintext3 p {
+  font-size: 23px;
+}
+
+.maintext3 h5 {
+  font-size: 20px;
+	color: #B73E3E;
+}
+
+
+/*This is footer*/
+#footer {
+    background-color: #FFDAC7;
+    margin: auto;
+    padding: 5px 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form-floating.mb-3 {
+  margin-left: 30px;
+}
+
+.form-control {
+  font-size: 15px;
+  padding: 4px 8px;
+  margin-right: -5px;
+}
+
+.btnnn {
+  background-color: #FFADAD;
+  border-radius: 1px;
+  border-color: #f7f8f8;
+  color: #f7f8f8;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnnn:hover {
+  background-color: #FFC0CB;
+  color: #f7f8f8;
+}
+
+
+
+#footer {
+  background-color: #4F709C;
+  margin: auto;
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+	color: #F3DEBA;
+}
+
+.form-floating.mb-3 {
+  margin-left: 120px;
+  margin-top: -20px; 
+  margin-bottom: 10px;
+}
+
+.form-control {
+  font-size: 15px;
+  padding: 4px 8px;
+  margin-right: -5px;
+}
+
+.btnnn {
+  background-color: #D8C4B6;
+  border-radius: 1px;
+  border-color: #f7f8f8;
+  color: black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnnn:hover {
+  background-color: #A9907E;
+  color: #f7f8f8;
+}
+
+#foot {
+    background-color: #4F709C;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#footer-list {
+  font-size: 14px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #F5EFE7;
+}
+
+#footer-list li {
+  float: left;
+  display: block;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  .navbar a {
+    padding: 0.5%;
+  }
+
+ 
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar a {
+    margin: 5px;
+  }
+
+@media screen and (max-width: 1024px) {
+  #main,
+  #main1,
+  #main2,
+  #main3 {
+    width: 100%;
+  }
+
+@media screen and (max-width: 1200px) {
+  #foot {
+	  font-size: 12px;
+	}

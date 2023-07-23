@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFF0;
+}
+
+/* This is Navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #A1C2F1;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align:center;
+  padding:0.5%;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.navbar a:hover {
+  color: #4F709C;
+}
+
+#logo {
+  float: left;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* This is Main Image */
+.overlay {
+	position: relative;
+	padding: 160px;
+	min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url("image/type1.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-size: cover;
+	opacity: .8;
+}
+
+.text {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #64CCC5;
+}
+
+/*This is new main*/
+#main {
+	max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;	
+  justify-content: center;
+}
+
+.maintext {
+  margin-top: 2px;
+}
+
+.maintext p {
+  font-size: 23px;
+}
+
+#main1, #main2, #main3, #main4, #main5, #main6, #main7 {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  border-radius: 3%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image img {
+  border-radius: 5%;
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.card-content h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  color: #4F709C; 
+}
+
+.card-content p {
+  font-size: 20px;
+  color: #213555; 
+}
+
+.card-content ul {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #213555; 
+}
+
+
+.card1 {
+  background-color: #D8C4B6; 
+}
+
+.card2 {
+  background-color: #F5EFE7; 
+}
+
+.card3 {
+  background-color: #D8C4B6; 
+}
+
+.card4 {
+  background-color: #F5EFE7; 
+}
+
+.card5 {
+  background-color: #D8C4B6; 
+}
+
+.card6 {
+  background-color: #F5EFE7; 
+}
+
+.card7 {
+  background-color: #D8C4B6; 
+}
+
+
+
+
+
+
+/* this is footer */
+#footer {
+    background-color: #FFDAC7;
+    margin: auto;
+    padding: 5px 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form-floating.mb-3 {
+  margin-left: 30px;
+}
+
+.form-control {
+  font-size: 15px;
+  padding: 4px 8px;
+  margin-right: -5px;
+}
+
+.btnnn {
+  background-color: #FFADAD;
+  border-radius: 1px;
+  border-color: #f7f8f8;
+  color: #f7f8f8;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnnn:hover {
+  background-color: #FFC0CB;
+  color: #f7f8f8;
+}
+
+
+
+#footer {
+  background-color: #4F709C;
+  margin: auto;
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+	color: #F3DEBA;
+}
+
+.form-floating.mb-3 {
+  margin-left: 120px;
+  margin-top: -20px; 
+  margin-bottom: 10px;
+}
+
+.form-control {
+  font-size: 15px;
+  padding: 4px 8px;
+  margin-right: -5px;
+}
+
+.btnnn {
+  background-color: #D8C4B6;
+  border-radius: 1px;
+  border-color: #f7f8f8;
+  color: black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnnn:hover {
+  background-color: #A9907E;
+  color: #f7f8f8;
+}
+
+#foot {
+    background-color: #4F709C;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#footer-list {
+  font-size: 14px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #F5EFE7;
+}
+
+#footer-list li {
+  float: left;
+  display: block;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .maintext,
+  .main1,
+  .main2,
+  .maintext2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .main1,
+  .main2 {
+    margin: 20px auto; 
+  }
+
+  #main,
+  #main2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  #logo img {
+    width: 150px;
+    height: 30px;
+  }
+
+  body,
+  td,
+  th {
+    font-size: 20px;
+  }
+}
+
